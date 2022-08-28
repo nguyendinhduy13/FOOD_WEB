@@ -29,6 +29,7 @@ module.exports = {
         420:"420px",
         510:"510px",
         600:"600px",
+        650:"650px",
         685:"685px",
         800:"800px",
         "90vh":"90vh",
@@ -49,9 +50,16 @@ module.exports = {
         headingColor:"#2e2e2e",
         textColor:"#515151",
         cartNumBg:"#e80013",
-        primary:"#f5f3f3"
+        primary:"#f5f3f3",
+        cardOverplay:"rgba(255,255,255,0.8)",
+        lighttextGray:"#9ca0ab",
+        cardBg:'#282a2c',
+        cartitem:'#2e3033',
+        cartTotal:'#343739'
       }
     },
   },
-  plugins: [],
+  plugins: [
+    require('tailwind-scrollbar'),
+  ],
 }
